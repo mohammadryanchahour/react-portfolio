@@ -1,0 +1,43 @@
+.home-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1{
+        color: #f5f5f5;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: 400;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'Impact';
+            color: #df0000;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
+        }
+
+        &::after{
+            content: '<h1/>';
+            font-family: 'Impact';
+            color: #df0000;
+            margin-top: 18px;
+            position: absolute;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        img {
+            width: 32px;
+        }
+    }
+}

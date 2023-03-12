@@ -1,0 +1,23 @@
+$primary-color: #00ffff;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('./assets/fonts/SpaceGrotesk.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./assets/fonts/RobotoCondensed.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./assets/fonts/PlayfairDisplay.ttf') format('ttf');
+}
+
+input,
+textarea {
+  font-family: 'Space Grotesk';
+}
